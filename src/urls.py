@@ -22,6 +22,7 @@ from src.views import (
     #
     async_view,
     fake_async_view_with_blocking,
+    real_async_view,
 )
 
 urlpatterns = [
@@ -30,4 +31,5 @@ urlpatterns = [
     #
     path('async/', async_view, name='async'),
     path('fake-async/', fake_async_view_with_blocking, name='fake_async_view_with_blocking'),
+    path('real-async/', real_async_view, name='real_async_view'),
 ]
