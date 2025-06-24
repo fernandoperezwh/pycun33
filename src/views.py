@@ -1,3 +1,4 @@
+import time
 from django.http import HttpResponse
 
 def sync_view(request):
