@@ -1,4 +1,5 @@
 import time
+import asyncio
 from django.http import HttpResponse
 
 def sync_view(request):
